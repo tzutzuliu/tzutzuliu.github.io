@@ -1,3 +1,28 @@
 *{
-    color: brown;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin: 0px auto;
 }
+
+
+/* flex container*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* header */
+header {
+    height: 25vh;
+    padding: 0%;
+    border: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./gem01.jpg');
+}
+
