@@ -1,3 +1,27 @@
 *{
-    color: brown;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 10px auto;
 }
+
+/* header */
+header {
+    height: 40vh;
+    padding: 200px 0;
+    border: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./header01.jpg');
+    background-repeat: repeat-x;
+}
+
+/* pic1 */
+.pic1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

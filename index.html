@@ -4,25 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Home</title>
+    <title>我的作品集</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        .pic1 {
+            overflow: auto;
+            margin: 10 10 10 20px auto;
+        }
+
+        .pic2 {
+            justify-content: center;
+            margin: 10 10 10 20px auto;
+        }
+
+        .section {
+            display: flex;
+            flex-basis: 100%;
+        }
+
+        .section>div {
+            display: flex;
+            flex-basis: 80%;
+        }
+
+        .section>a {
+            display: flex;
+            flex-basis: 20%;
+            color: blue;
+        }
+    </style>
 </head>
 
-<body>
-    
+<body>   
     <header>
+        <div class="header-content">
+        </div>
+    </header>
+    <hr>
 
-        <div id="header">
-            Hi~myhome
+    <br><br>
+
+    <section>
+
+        <div class="pic1">
+
+            <img src="./unsplash21.jpg" alt="mypic1" width="350" height="250">
+
+            <a href="#">XXX</a>
+
         </div>
 
-    </header>
+    </section>
 
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis molestias ad accusantium quod aut animi
-        dolores possimus suscipit non, labore, ullam quo mollitia eaque doloribus aliquid? Eum saepe distinctio
-        architecto.
-    </p>
-    
+
+
+
 </body>
 </html>
