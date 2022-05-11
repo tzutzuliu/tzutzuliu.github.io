@@ -7,57 +7,93 @@
     <title>我的作品集</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        .pic1 {
-            overflow: auto;
-            margin: 10 10 10 20px auto;
+        * { 
+            box-sizing: border-box;
+            padding-top: 0px auto;        
         }
 
-        .pic2 {
+        .container { 
+            width: 900px;
+            background-color: wheat;
+            margin: 100px auto;
             justify-content: center;
-            margin: 10 10 10 20px auto;
         }
 
-        .section {
-            display: flex;
-            flex-basis: 100%;
+        .container::after {
+            clear: both;
+            content: "";
+            display: block;
         }
 
-        .section>div {
-            display: flex;
-            flex-basis: 80%;
+        .col {
+            width: 280px;
+            background-color: white;
+            float: left;
+            margin: 10px;
+            justify-content: center;
         }
 
-        .section>a {
-            display: flex;
-            flex-basis: 20%;
-            color: blue;
+        .col>h1 { 
+            margin: 20px;
+            text-align: center;
         }
+
+        .col>p { 
+            padding: 10px;
+        }
+
+        .col img {
+            width: 100%;
+        }
+
     </style>
 </head>
 
-<body>   
-    <header>
-        <div class="header-content">
-        </div>
-    </header>
-    <hr>
+<body>
 
-    <br><br>
+    <div class="top">
+        <img src="./gem01.jpg" alt="top" width="100%">
+    </div>
 
-    <section>
+    <div class="container">
 
-        <div class="pic1">
-
-            <img src="./unsplash21.jpg" alt="mypic1" width="350" height="250">
-
-            <a href="#">XXX</a>
-
+        <div class="col">
+            <img src="./pexels-fauxels.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
         </div>
 
-    </section>
+        <div class="col">
+            <img src="./unsplash12.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
+        </div>
 
+        <div class="col">
+            <img src="./unsplash13.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
+        </div>
 
+        <div class="col">
+            <img src="./pexels-fauxels.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
+        </div>
 
+        <div class="col">
+            <img src="./unsplash12.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
+        </div>
+
+        <div class="col">
+            <img src="./unsplash13.jpg" alt="文繞圖"> 
+            <h1>作品集</h1>
+            <p> 這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品這是我的作品</p>
+        </div>
+
+    </div>   
 
 </body>
 </html>
