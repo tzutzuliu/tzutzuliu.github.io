@@ -515,6 +515,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  color: #1d685f;
 }
 
 .section-title h2 {
@@ -864,7 +865,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #222222;
+  color: palevioletred;
   transition: ease-in-out 0.3s;
 }
 
